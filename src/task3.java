@@ -8,7 +8,7 @@ void main() {
     average/=arr.length;
 
     System.out.print("Array: ");
-    for(double x : arr){
+    for(int x : arr){
         System.out.print(x+" ");
         if (x>average)n++;
     }
